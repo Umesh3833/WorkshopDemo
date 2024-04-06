@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Header Section */
+.header-section {
+  background-color: #005792;
   color: white;
+  padding: 40px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.header-section h1 {
+  font-size: 2.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-section p.lead {
+  font-size: 1.2rem;
+}
+
+/* Speakers Section */
+.speakers-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.speakers-section h2 {
+  margin-bottom: 30px;
+}
+
+.speaker-card {
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.speaker-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.speaker-name {
+  font-weight: bold;
+  color: #005792;
+}
+
+.speaker-info {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Venue and Time Section */
+.venue-time-section {
+  background-color: #fff;
+  padding: 20px 0;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.venue-time-section h2, 
+.venue-time-section .section-title {
+  color: #007f5f;
+}
+
+/* Timeline Section */
+.itinerary-section h2 {
+  margin-bottom: 30px;
+}
+
+.timeline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.timeline-time {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #005792;
+}
+
+.timeline-event {
+  color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .header-section h1 {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .speaker-card img {
+    width: 80px;
+    height: 80px;
   }
 }
+
+/* Additional Styles */
+/* Add any additional styles you need here */
