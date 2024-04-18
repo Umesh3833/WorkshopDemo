@@ -14,9 +14,10 @@ html {
 
 /* Header Section */
 .header-section {
-  background-color: #005792;
+  background-color: #154360;
   color: white;
   padding: 40px 0;
+  text-align: center;
 }
 
 .header-section h1 {
@@ -80,13 +81,17 @@ html {
 
 /* Footer */
 footer {
-  background-color: #005792;
+  background-color: #154360;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
+  .header-section {
+    padding: 40px 10px;
+    text-align: center;
+  }
   .header-section h1 {
     font-size: 2rem; /* Smaller font size for smaller screens */
   }
@@ -121,8 +126,14 @@ footer {
   border: 1px solid #dee2e6;
 }
 
+.table th, .table td:first-child {
+  padding: 12px 15px;
+  max-width: 120px;
+  border: 1px solid #dee2e6;
+}
+
 .table thead th {
-  background-color: #005792;
+  background-color: #154360;
   color: white;
 }
 
@@ -140,7 +151,7 @@ footer {
 }
 
 .dropdown-indicator.open {
-  transform: rotate(180deg); /* Flips the arrow when the abstract is expanded */
+  transform: rotate(90deg); /* Flips the arrow when the abstract is expanded */
 }
 
 .abstract-details td {
