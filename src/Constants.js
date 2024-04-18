@@ -45,11 +45,11 @@ export const events = [
     {
         time: "10:00 - 10:30",
         speaker: "Aditya Gopalan",
-     },
+    },
     {
         time: "10:30 - 11:00",
         speaker: "Avhishek Chatterjee",
-     },
+    },
     {
         time: "11:00 - 11:30",
         speaker: "B.N.Bharath",
@@ -69,7 +69,7 @@ export const events = [
     {
         time: "12:20 - 12:50",
         speaker: "Krishna Jagannathan",
-     },
+    },
     {
         time: "12:50 - 14:00",
         speaker: "Lunch"
@@ -77,16 +77,16 @@ export const events = [
     {
         time: "14:00 - 14:30",
         speaker: "Jayakrishnan U. Nair",
-      },
+    },
     {
         time: "14:30 - 15:00",
         speaker: "Nikhil Karamchandani",
-       },
+    },
     {
         time: "15:00 - 15:30",
         speaker: "Jaya Prakash Varma Champati",
         title: "Toward Efficient and Reliable Inference in Edge AI Systems",
-        abstract:"In the past decade, Deep Learning (DL) has achieved unprecedented improvement in the inference accuracy for several hard-to-tackle applications such as natural language processing, image classification, object detection and identification, etc. The state-of-the-art DL models that achieve close to 100% inference accuracy are large requiring gigabytes of memory to load them. On the other end of the spectrum, the tinyML community is pushing the limits of compressing DL models to embed them on memory-limited IoT devices. Performing local inference for data samples on the end devices reduces delay, saves network bandwidth, and improves the energy efficiency of the system, but it suffers in terms of low QoE as the small-size DL models have low inference accuracy. To reap the benefits of doing local inference while not compromising on the inference accuracy, we explore the idea of Hierarchical Inference (HI), wherein the local inference is accepted only when it is (likely) correct, otherwise, the data sample is offloaded. In this talk, for the prototypical image classification application, I will present the HI online learning framework for identifying incorrect local inferences. The resulting problem turns out to be a novel partitioning experts problem with continuous action space. I will present algorithms with sub-linear regret and use simulation to demonstrate the efficacy of HI on ImageNet and CIFAR-10 datasets."
+        abstract: "In the past decade, Deep Learning (DL) has achieved unprecedented improvement in the inference accuracy for several hard-to-tackle applications such as natural language processing, image classification, object detection and identification, etc. The state-of-the-art DL models that achieve close to 100% inference accuracy are large requiring gigabytes of memory to load them. On the other end of the spectrum, the tinyML community is pushing the limits of compressing DL models to embed them on memory-limited IoT devices. Performing local inference for data samples on the end devices reduces delay, saves network bandwidth, and improves the energy efficiency of the system, but it suffers in terms of low QoE as the small-size DL models have low inference accuracy. To reap the benefits of doing local inference while not compromising on the inference accuracy, we explore the idea of Hierarchical Inference (HI), wherein the local inference is accepted only when it is (likely) correct, otherwise, the data sample is offloaded. In this talk, for the prototypical image classification application, I will present the HI online learning framework for identifying incorrect local inferences. The resulting problem turns out to be a novel partitioning experts problem with continuous action space. I will present algorithms with sub-linear regret and use simulation to demonstrate the efficacy of HI on ImageNet and CIFAR-10 datasets."
     },
     {
         time: "15:30 - 15:50",
@@ -101,7 +101,7 @@ export const events = [
     {
         time: "16:20 - 16:50",
         speaker: "Vivek Borkar",
-        },
+    },
     {
         time: "16:50 - 17:00",
         speaker: "Closing Remarks"

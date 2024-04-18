@@ -2,9 +2,9 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="header-section text-center">
-        <h1 className="my-4">Mathematics and Computing Workshop</h1>
-        <p className="lead">A full-day event exploring cutting-edge research</p>
+    <header className="header-section">
+        <h1 className="my-4">Exploring the Frontiers of Mathematics</h1>
+        <p className="lead">Delve into the latest advances in Probability, Online Learning, and Federated Learning.</p>
     </header>
   );
 }
