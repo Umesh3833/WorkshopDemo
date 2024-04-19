@@ -151,7 +151,7 @@ footer {
 }
 
 .dropdown-indicator.open {
-  transform: rotate(90deg); /* Flips the arrow when the abstract is expanded */
+  transform: rotate(180deg); /* Flips the arrow when the abstract is expanded */
 }
 
 .abstract-details td {

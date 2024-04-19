@@ -2,28 +2,47 @@ import parthe from './Images/parthe.jpg'
 import bharath from './Images/bharath.png'
 import abhishek from './Images/abhisheksinha.jpg'
 import jp from './Images/jp.jpg'
+import aditya from './Images/Aditya_pic_NY.jpeg'
+import avishek from'./Images/avhishek_lp.png'
+import krishna from './Images/krishna.jpg'
+import jk from './Images/JK.jpeg'
+import nikil from './Images/nikil.jpg'
 
 export const speakers = [
     {
-        name: "Parthe Pandit",
-        imageUrl: parthe,
-        link: "https://parthe.github.io/",
-        bio: "Parthe is a faculty member at C-MInDS. He got his PhD from UCLA and was a postdoc at UCSD.",
-        college: "C-MInDS"
+        name: "Abhishek Sinha",
+        imageUrl: abhishek,
+        link: "https://www.tifr.res.in/~abhishek.sinha/",
+        bio: "Abhishek Sinha is currently a faculty member in the School of Technology and Computer Science at the Tata Institute of Fundamental Research, Mumbai, India.",
+        college: "TIFR"
+    },
+    {
+        name: "Aditya Gopalan",
+        imageUrl: aditya,
+        link: "https://ece.iisc.ac.in/~aditya/",
+        bio: "",
+        college: "IISc"
+    },
+    {
+        name: "Avhishek Chatterjee",
+        imageUrl: avishek,
+        link: "https://www.ee.iitm.ac.in/faculty/profile/avhishek",
+        bio: "",
+        college: "IIT Madras"
     },
     {
         name: "B. N. Bharath",
         imageUrl: bharath,
         link: "https://bharathbettagere.github.io/mywebpage/",
         bio: "B. N. Bharath received the B.E. degree in Electrical and Electronics Engineering from the B.M.S. College of Engineering, Bengaluru, in 2005, and the Ph.D. degree from the Electrical Communication Engineering (ECE) Department, Indian Institute of Science (IISc), Bengaluru in 2013.",
-        college: "Indian Institute of Technology Dharwad"
+        college: "IIT Dharwad"
     },
     {
-        name: "Abhishek Sinha",
-        imageUrl: abhishek,
-        link: "https://www.tifr.res.in/~abhishek.sinha/",
-        bio: "Abhishek Sinha is currently a faculty member in the School of Technology and Computer Science at the Tata Institute of Fundamental Research, Mumbai, India.",
-        college: "Tata Institute of Fundamental Research"
+        name: "Jayakrishnan U. Nair",
+        imageUrl: jk,
+        link: "https://www.ee.iitb.ac.in/~jayakrishnan.nair/",
+        bio: "",
+        college: "IIT Bombay"
     },
     {
         name: "Jaya Prakash Varma Champati",
@@ -31,7 +50,31 @@ export const speakers = [
         link: "https://networks.imdea.org/team/imdea-networks-team/people/jaya-prakash-varma-champati/",
         bio: "Jaya Prakash Champati is an Assistant Professor at IMDEA Networks Institute, where he leads the Edge Networks group.",
         college: "IMDEA Networks Institute"
-    }
+    },
+    {
+        name: "Krishna Jagannathan",
+        imageUrl: krishna,
+        link: "https://www.ee.iitm.ac.in/~krishnaj/",
+        bio: "",
+        college: "IIT Madras"
+    },
+    {
+        name: "Nikhil Karamchandani",
+        imageUrl: nikil,
+        link: "https://sites.google.com/site/nikhilkaram/home",
+        bio: "",
+        college: "IIT Bombay"
+    },
+    {
+        name: "Parthe Pandit",
+        imageUrl: parthe,
+        link: "https://parthe.github.io/",
+        bio: "Parthe is a faculty member at C-MInDS. He got his PhD from UCLA and was a postdoc at UCSD.",
+        college: "IIT Bombay"
+    },
+   
+  
+   
 ];
 export const events = [
     {
