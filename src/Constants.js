@@ -55,14 +55,14 @@ export const speakers = [
         name: "Krishna Jagannathan",
         imageUrl: krishna,
         link: "https://www.ee.iitm.ac.in/~krishnaj/",
-        bio: "",
+        bio: " Krishna Jagannathan obtained his B. Tech. in Electrical Engineering from IIT Madras in 2004, and the S.M. and Ph.D. degrees in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT) in 2006 and 2010 respectively. During 2010-2011, he was a visiting post-doctoral scholar in Computing and Mathematical Sciences at Caltech, and an off-campus post-doctoral fellow at MIT. Since November 2011, he has been with the Department of Electrical Engineering, IIT Madras, where he is currently a professor. His research interests lie in the stochastic modeling and analysis of communication networks, information theory, and queuing theory.",
         college: "IIT Madras"
     },
     {
         name: "Nikhil Karamchandani",
         imageUrl: nikil,
         link: "https://sites.google.com/site/nikhilkaram/home",
-        bio: "",
+        bio: "Nikhil Karamchandani is an Associate Professor with the Department of Electrical Engineering, IIT Bombay. His research interests include networks, information theory, and online learning. ",
         college: "IIT Bombay"
     },
     {
@@ -112,6 +112,8 @@ export const events = [
     {
         time: "12:20 - 12:50",
         speaker: "Krishna Jagannathan",
+        title:"Classical Bandits Approaches for Quantum Entanglement Detection",
+        abstract:"Entanglement is a key property of quantum states that acts as a resource for a wide range of tasks in quantum information and computing. Detecting entanglement in an unknown quantum state is an important problem, both conceptually and practically. Extensive research on entanglement detection has led to a no-go theorem for arbitrary quantum states, proving the insufficiency of \emph{non-adaptive single-copy measurements} alone, thus necessitating recourse to full state tomography (FST). Our present work reveals that the problem of entanglement detection becomes more tractable when considering certain \emph{structured} classes of quantum states, say $\mathcal{H}.$ Specifically, we consider a set of $K$ quantum states derived from $\mathcal{H}$, where $m \leq K$ states are potentially entangled ($m$ being unknown). We propose a method for detecting entanglement in these structured states through non-adaptive single-copy measurements, without explicit FST. Our approach integrates measurements of the unknown states using a special set of POVMs, and then applying established techniques from classical multi-armed bandit literature on the measurement outcomes.  We also implement and demonstrate empirically the feasibility of the proposed method for some relevant classes $\mathcal H$. More broadly, this work highlights the potential for employing classical machine learning algorithms for quantum entanglement detection."
     },
     {
         time: "12:50 - 14:00",
@@ -124,6 +126,8 @@ export const events = [
     {
         time: "14:30 - 15:00",
         speaker: "Nikhil Karamchandani",
+        title:"Group Testing: Something old, Something new, Something borrowed",
+        abstract:"The problem of group testing entails inferring a subset of defective items from a (much larger) population, using as few `pooled tests' as possible. Each pooled test specifies a subset of the items and produces a binary outcome: `negative' if all the items selected in the test are non-defective, and `positive' otherwise. While the original motivation for group testing was medical testing, it has since found application across a wide variety of scenarios including wireless communications, DNA sequencing, neighbour discovery, and network tomography. We review some of the main results in group testing and then introduce a new variation of the problem ('cascaded group testing') where each test is specified by an ordered subset of items, and returns the first defective item in the specified order.  "
     },
     {
         time: "15:00 - 15:30",

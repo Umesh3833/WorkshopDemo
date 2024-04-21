@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header';
 import Speakers from './Speakers';
 import Schedule from './Schedule';
+import Venue from './Venue'
 import {speakers,events} from './Constants'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Venue />
       <Speakers speakers={speakers} />
       <Schedule events={events} />
       <footer className="text-center mt-4 p-4">
