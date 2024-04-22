@@ -22,7 +22,7 @@ export const speakers = [
         name: "Aditya Gopalan",
         imageUrl: aditya,
         link: "https://ece.iisc.ac.in/~aditya/",
-        bio: "",
+        bio: "Aditya Gopalan is an Associate Professor at the Indian Institute of Science, Bengaluru, in the dept. of Electrical Communication Engineering (ECE). He received the Ph.D. degree in electrical engineering from The University of Texas at Austin, and followed it up with a postdoc at the Technion-Israel Institute of Technology. His research interests lie in statistical learning, with a focus on online and reinforcement learning, optimization and control, and statistical inference. He served as an editor of the IEEE/ACM Transactions on Networking, and is an Associate Fellow of the Indian National Science Academy. ",
         college: "IISc"
     },
     {
@@ -90,6 +90,8 @@ export const events = [
     {
         time: "10:00 - 10:30",
         speaker: "Aditya Gopalan",
+        title:"Bad Values but Good Behaviour: Learning Optimal Policies in Highly Misspecified Decision Problems",
+        abstract:"Parametric, feature-based reward models are employed by a variety of algorithms in decision-making settings such as bandits and Markov decision processes (MDPs). The typical assumption under which the algorithms are analysed is realizability, i.e., that the true values of actions are perfectly explained by some parametric model in the class. We are, however, interested in the more realistic situation where the true values are (significantly) misspecified with respect to the model class. For parameterized bandits, contextual bandits and MDPs, we identify structural conditions, depending on the problem instance and model class, under which basic algorithms such as $\\epsilon$-greedy, LinUCB and fitted Q-learning provably learn optimal policies under even highly misspecified models. This is in contrast to existing worst-case results for misspecified bandits which show regret bounds that scale linearly with time, and shows that there can be a nontrivially large set of bandit instances that are robust to misspecification."
     },
     {
         time: "10:30 - 11:00",
