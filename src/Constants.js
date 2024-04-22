@@ -1,9 +1,11 @@
+
+
 import parthe from './Images/parthe.jpg'
 import bharath from './Images/bharath.png'
 import abhishek from './Images/abhisheksinha.jpg'
 import jp from './Images/jp.jpg'
 import aditya from './Images/Aditya_pic_NY.jpeg'
-import avishek from'./Images/avhishek_lp.png'
+import avishek from './Images/avhishek_lp.png'
 import krishna from './Images/krishna.jpg'
 import jk from './Images/JK.jpeg'
 import nikil from './Images/nikil.jpg'
@@ -55,7 +57,7 @@ export const speakers = [
         name: "Krishna Jagannathan",
         imageUrl: krishna,
         link: "https://www.ee.iitm.ac.in/~krishnaj/",
-        bio: " Krishna Jagannathan obtained his B. Tech. in Electrical Engineering from IIT Madras in 2004, and the S.M. and Ph.D. degrees in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT) in 2006 and 2010 respectively. During 2010-2011, he was a visiting post-doctoral scholar in Computing and Mathematical Sciences at Caltech, and an off-campus post-doctoral fellow at MIT. Since November 2011, he has been with the Department of Electrical Engineering, IIT Madras, where he is currently a professor. His research interests lie in the stochastic modeling and analysis of communication networks, information theory, and queuing theory.",
+        bio: " Krishna Jagannathan obtained his B.Tech. in Electrical Engineering from IIT Madras in 2004, and the S.M. and Ph.D. degrees in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT) in 2006 and 2010 respectively. During 2010-2011, he was a visiting post-doctoral scholar in Computing and Mathematical Sciences at Caltech, and an off-campus post-doctoral fellow at MIT. Since November 2011, he has been with the Department of Electrical Engineering, IIT Madras, where he is currently a professor. His research interests lie in the stochastic modeling and analysis of communication networks, information theory, and queuing theory.",
         college: "IIT Madras"
     },
     {
@@ -72,9 +74,9 @@ export const speakers = [
         bio: "Parthe is a faculty member at C-MInDS. He got his PhD from UCLA and was a postdoc at UCSD.",
         college: "IIT Bombay"
     },
-   
-  
-   
+
+
+
 ];
 export const events = [
     {
@@ -97,8 +99,7 @@ export const events = [
         time: "11:00 - 11:30",
         speaker: "B.N.Bharath",
         title: "Generalization of FedAvg Under Constrained Polyak-Łojasiewicz Conditions",
-        abstract: "This talk focusses on the generalization along with convergence guarantees of the widely used FedAvg algorithm for solving Federated Learning (FL) problems. We prove the generalization bound by handling the optimization error and the Rademacher complexity. Towards handling optimization error, we will look at a new constrained Polyak-Łojasiewicz (PL) type conditions on the (local) loss functions that ensure existence of a global optimal to which the FedAvg algorithms converge linearly after O(log(1/ε)) rounds of communication, where ε is the desired optimality gap. Importantly, we demonstrate that a class of single hidden layer neural networks satisfy the proposed conditions that are required to establish the linear convergence of FedAvg as long as m > nK d , where m is the number of neurons in the hidden layer, n is the number of samples at each client, K is the number of clients, and d is the feature dimension. We also bound the Rademacher Complexity for this class of neural networks using the fact that the neural network parameters are constrained to a neighbourhood around the initialization. We observe Rademacher Complexity decreasing at a rate of O(1/√n) while the generalization error of FedAvg decreases at the rate of O(1/√n)."
-    },
+        abstract: "This talk focusses on the generalization along with convergence guarantees of the widely used FedAvg algorithm for solving Federated Learning (FL) problems. We prove the generalization bound by handling the optimization error and the Rademacher complexity. Towards handling optimization error, we will look at a new constrained Polyak-Łojasiewicz (PL) type conditions on the (local) loss functions that ensure existence of a global optimal to which the FedAvg algorithms converge linearly after $\\mathcal{O}(\\log(1/\\epsilon))$ rounds of communication, where $\\epsilon$ is the desired optimality gap. Importantly, we demonstrate that a class of single hidden layer neural networks satisfy the proposed conditions that are required to establish the linear convergence of FedAvg as long as $m > nK d$ , where $m$ is the number of neurons in the hidden layer, $n$ is the number of samples at each client, $K$ is the number of clients, and d is the feature dimension. We also bound the Rademacher Complexity for this class of neural networks using the fact that the neural network parameters are constrained to a neighbourhood around the initialization. We observe Rademacher Complexity decreasing at a rate of $\\mathcal{O}(1/\\sqrt{n})$ while the generalization error of FedAvg decreases at the rate of $\\mathcal{O}(1/\\sqrt{n})$."   },
     {
         time: "11:30 - 11:50",
         speaker: "Coffee Break"
@@ -107,13 +108,13 @@ export const events = [
         time: "11:50 - 12:20",
         speaker: "Abhishek Sinha",
         title: "Caching without regret",
-        abstract: "Caching, which refers to dynamically selecting a small subset of files to store on a limited-capacity server to maximize the hits, is a fundamental problem in edge networks. In this talk, we will discuss an emergent class of online caching algorithms that achieve zero regret in various problem settings for any arbitrary file request sequence. Starting from the fundamental limits of a single cache, we will discuss learning-aided caching algorithms that can incorporate untrusted predictions to their advantage. We will then propose efficient online algorithms for a cache network serving multiple users. Finally, we will discuss the problem of fair caching and design new algorithms to maximize the cumulative α-fair utility function."
+        abstract: "Caching, which refers to dynamically selecting a small subset of files to store on a limited-capacity server to maximize the hits, is a fundamental problem in edge networks. In this talk, we will discuss an emergent class of online caching algorithms that achieve zero regret in various problem settings for any arbitrary file request sequence. Starting from the fundamental limits of a single cache, we will discuss learning-aided caching algorithms that can incorporate untrusted predictions to their advantage. We will then propose efficient online algorithms for a cache network serving multiple users. Finally, we will discuss the problem of fair caching and design new algorithms to maximize the cumulative $\\alpha$-fair utility function."
     },
     {
         time: "12:20 - 12:50",
         speaker: "Krishna Jagannathan",
-        title:"Classical Bandits Approaches for Quantum Entanglement Detection",
-        abstract:"Entanglement is a key property of quantum states that acts as a resource for a wide range of tasks in quantum information and computing. Detecting entanglement in an unknown quantum state is an important problem, both conceptually and practically. Extensive research on entanglement detection has led to a no-go theorem for arbitrary quantum states, proving the insufficiency of \emph{non-adaptive single-copy measurements} alone, thus necessitating recourse to full state tomography (FST). Our present work reveals that the problem of entanglement detection becomes more tractable when considering certain \emph{structured} classes of quantum states, say $\mathcal{H}.$ Specifically, we consider a set of $K$ quantum states derived from $\mathcal{H}$, where $m \leq K$ states are potentially entangled ($m$ being unknown). We propose a method for detecting entanglement in these structured states through non-adaptive single-copy measurements, without explicit FST. Our approach integrates measurements of the unknown states using a special set of POVMs, and then applying established techniques from classical multi-armed bandit literature on the measurement outcomes.  We also implement and demonstrate empirically the feasibility of the proposed method for some relevant classes $\mathcal H$. More broadly, this work highlights the potential for employing classical machine learning algorithms for quantum entanglement detection."
+        title: "Classical Bandits Approaches for Quantum Entanglement Detection",
+        abstract: "Entanglement is a key property of quantum states that acts as a resource for a wide range of tasks in quantum information and computing. Detecting entanglement in an unknown quantum state is an important problem, both conceptually and practically. Extensive research on entanglement detection has led to a no-go theorem for arbitrary quantum states, proving the insufficiency of \emph{non-adaptive single-copy measurements} alone, thus necessitating recourse to full state tomography (FST). Our present work reveals that the problem of entanglement detection becomes more tractable when considering certain \emph{structured} classes of quantum states, say $\\mathcal{H}.$ Specifically, we consider a set of $K$ quantum states derived from $\\mathcal{H}$, where $m \\leq K$ states are potentially entangled ($m$ being unknown). We propose a method for detecting entanglement in these structured states through non-adaptive single-copy measurements, without explicit FST. Our approach integrates measurements of the unknown states using a special set of POVMs, and then applying established techniques from classical multi-armed bandit literature on the measurement outcomes.  We also implement and demonstrate empirically the feasibility of the proposed method for some relevant classes $\\mathcal H$. More broadly, this work highlights the potential for employing classical machine learning algorithms for quantum entanglement detection."
     },
     {
         time: "12:50 - 14:00",
@@ -122,12 +123,13 @@ export const events = [
     {
         time: "14:00 - 14:30",
         speaker: "Jayakrishnan U. Nair",
+      
     },
     {
         time: "14:30 - 15:00",
         speaker: "Nikhil Karamchandani",
-        title:"Group Testing: Something old, Something new, Something borrowed",
-        abstract:"The problem of group testing entails inferring a subset of defective items from a (much larger) population, using as few `pooled tests' as possible. Each pooled test specifies a subset of the items and produces a binary outcome: `negative' if all the items selected in the test are non-defective, and `positive' otherwise. While the original motivation for group testing was medical testing, it has since found application across a wide variety of scenarios including wireless communications, DNA sequencing, neighbour discovery, and network tomography. We review some of the main results in group testing and then introduce a new variation of the problem ('cascaded group testing') where each test is specified by an ordered subset of items, and returns the first defective item in the specified order.  "
+        title: "Group Testing: Something old, Something new, Something borrowed",
+        abstract: "The problem of group testing entails inferring a subset of defective items from a (much larger) population, using as few `pooled tests' as possible. Each pooled test specifies a subset of the items and produces a binary outcome: `negative' if all the items selected in the test are non-defective, and `positive' otherwise. While the original motivation for group testing was medical testing, it has since found application across a wide variety of scenarios including wireless communications, DNA sequencing, neighbour discovery, and network tomography. We review some of the main results in group testing and then introduce a new variation of the problem ('cascaded group testing') where each test is specified by an ordered subset of items, and returns the first defective item in the specified order.  "
     },
     {
         time: "15:00 - 15:30",

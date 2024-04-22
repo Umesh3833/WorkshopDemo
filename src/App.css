@@ -58,6 +58,7 @@ html {
 }
 
 .speaker-card {
+  cursor: pointer;
   max-width: 350px;
   margin:auto;
   border: 1px solid #ccc;
@@ -68,7 +69,12 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
   
+}
+.speaker-card:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .speaker-card img {
@@ -97,6 +103,16 @@ html {
   margin: 5px 0;
 }
 
+bio-container{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+bio-container.expanded{
+  max-height: 500px;
+  opacity:1;
+}
 /* Footer */
 footer {
   background-color: #154360;
@@ -112,6 +128,10 @@ footer {
   }
   .header-section h1 {
     font-size: 2rem; /* Smaller font size for smaller screens */
+  }
+
+  .venue-section{
+    margin: 10px 40px ;
   }
 
   .venue-section, .schedule-section, .speakers-section {
