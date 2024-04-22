@@ -24,7 +24,7 @@ function Schedule({ events }) {
     });
   };
   return (
-    <section className="schedule-section container">
+    <section className="schedule-section">
       <h2 className="text-center mb-4">Event Schedule</h2>
       <table className="table">
         <thead>
@@ -48,11 +48,13 @@ function Schedule({ events }) {
                 </td>
               </tr>
               {openAbstractIndex === index && event.abstract && (
-                <tr>
-                  <td colSpan="3">
-                    <div>{renderLatex(event.abstract)}</div>
-                  </td>
-                </tr>
+              
+                 <tr className="abstract-details">
+                 <td colSpan="3">
+                   <strong>Abstract:</strong>
+                   <p>{renderLatex(event.abstract)}</p>
+                 </td>
+               </tr>
               )}
             </React.Fragment>
           ))}
