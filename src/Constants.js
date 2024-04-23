@@ -29,7 +29,7 @@ export const speakers = [
         name: "Avhishek Chatterjee",
         imageUrl: avishek,
         link: "https://www.ee.iitm.ac.in/faculty/profile/avhishek",
-        bio: "",
+        bio: "Avhishek Chatterjee is an assistant professor in the Department of Electrical Engineering at the Indian Institute of Technology Madras. He received BE from the Jadavpur University, ME from the Indian Institute of Science Bangalore and PhD from The University of Texas at Austin, and was a postdoctoral research associate at the University of Illinois at Urbana-Champaign. His research interest lies in stochastic and information networks with applications in  classical and quantum information networks and human-centric networks.",
         college: "IIT Madras"
     },
     {
@@ -96,6 +96,8 @@ export const events = [
     {
         time: "10:30 - 11:00",
         speaker: "Avhishek Chatterjee",
+        title:"Noise Imposed Limitations of Quantum Computation",
+        abstract:"There is a growing interest in quantum computation due to the promise it makes in an ideal scenario. On the other hand, quantum computation is perceived by some as a hype, due to the large gap between the practice and the promise. The truth will  unfold in time only if we have a clear understanding of the gap between theory and practice, which is caused by the inevitable presence of noise in all practical quantum systems. The theory of quantum fault-tolerance was developed for finding ways to bridge this gap. In this talk, I shall discuss some unavoidable limitations imposed by noise on practical quantum computation circuits despite the best fault-tolerant schemes. A part of this talk would be our non-asymptotic converse bounds for gate based quantum computation circuits under general noise model. These bounds were obtained by treating noisy quantum circuits as  stochastic (quantum) information networks and by establishing a connection between quantum computation and communication. "
     },
     {
         time: "11:00 - 11:30",
