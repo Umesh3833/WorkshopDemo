@@ -43,7 +43,7 @@ html {
 
 .venue-title {
   margin-top: 10px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #226E93;
   margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@ html {
 .event-date,
 .venue-info {
 
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #030303;
   margin-bottom: 5px;
   font-weight: 500; 

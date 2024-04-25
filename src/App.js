@@ -16,7 +16,8 @@ function App() {
       <Speakers speakers={speakers} />
       <Schedule events={events} />
       <footer className="text-center mt-4 p-4">
-        <p>Contact us at [email address] for more information.</p>
+        <p className="lead">Organizer: Sharayu Moharir</p>
+        <p>Contact: sharayu.moharir@gmail.com</p>
       </footer>
     </div>
   );

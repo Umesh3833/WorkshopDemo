@@ -110,10 +110,11 @@ export const events = [
     },
     {
         time: "11:50 - 12:20",
-        speaker: "Abhishek Sinha",
-        title: "Caching without regret",
-        abstract: "Caching, which refers to dynamically selecting a small subset of files to store on a limited-capacity server to maximize the hits, is a fundamental problem in edge networks. In this talk, we will discuss an emergent class of online caching algorithms that achieve zero regret in various problem settings for any arbitrary file request sequence. Starting from the fundamental limits of a single cache, we will discuss learning-aided caching algorithms that can incorporate untrusted predictions to their advantage. We will then propose efficient online algorithms for a cache network serving multiple users. Finally, we will discuss the problem of fair caching and design new algorithms to maximize the cumulative $\\alpha$-fair utility function."
+        speaker: "Parthe Pandit",
+        title: "Fast and scalable training of kernel methods",
+        abstract: "In machine learning, kernel machines can often perform similarly or better than deep neural networks (DNNs) on small datasets. There has been a renewed interest in kernel machines due to the discovery of their equivalence to wide neural networks in certain regimes. However, a key feature of DNNs is their ability to scale the model size and training data size independently, whereas in traditional kernel machines model size is tied to data size. Because of this coupling, scaling kernel machines to large data has been computationally challenging. In this paper, we provide a way forward for constructing large-scale *general kernel models*, which are a generalization of kernel machines that decouples the model and training data, and allows training on arbitrarily large datasets. We also provide a fast scalable algorithm to train general kernel models with large number of centers."
     },
+    
     {
         time: "12:20 - 12:50",
         speaker: "Krishna Jagannathan",
@@ -145,11 +146,12 @@ export const events = [
         time: "15:30 - 15:50",
         speaker: "Coffee Break"
     },
+    
     {
         time: "15:50 - 16:20",
-        speaker: "Parthe Pandit",
-        title: "Fast and scalable training of kernel methods",
-        abstract: "In machine learning, kernel machines can often perform similarly or better than deep neural networks (DNNs) on small datasets. There has been a renewed interest in kernel machines due to the discovery of their equivalence to wide neural networks in certain regimes. However, a key feature of DNNs is their ability to scale the model size and training data size independently, whereas in traditional kernel machines model size is tied to data size. Because of this coupling, scaling kernel machines to large data has been computationally challenging. In this paper, we provide a way forward for constructing large-scale *general kernel models*, which are a generalization of kernel machines that decouples the model and training data, and allows training on arbitrarily large datasets. We also provide a fast scalable algorithm to train general kernel models with large number of centers."
+        speaker: "Abhishek Sinha",
+        title: "Caching without regret",
+        abstract: "Caching, which refers to dynamically selecting a small subset of files to store on a limited-capacity server to maximize the hits, is a fundamental problem in edge networks. In this talk, we will discuss an emergent class of online caching algorithms that achieve zero regret in various problem settings for any arbitrary file request sequence. Starting from the fundamental limits of a single cache, we will discuss learning-aided caching algorithms that can incorporate untrusted predictions to their advantage. We will then propose efficient online algorithms for a cache network serving multiple users. Finally, we will discuss the problem of fair caching and design new algorithms to maximize the cumulative $\\alpha$-fair utility function."
     },
     {
         time: "16:20 - 16:50",
