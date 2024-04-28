@@ -9,6 +9,7 @@ import avishek from './Images/avhishek_lp.png'
 import krishna from './Images/krishna.jpg'
 import jk from './Images/JK.jpeg'
 import nikil from './Images/nikil.jpg'
+import borkar from './Images/borkar.png'
 
 export const speakers = [
     {
@@ -72,6 +73,13 @@ export const speakers = [
         imageUrl: parthe,
         link: "https://parthe.github.io/",
         bio: "Parthe is a faculty member at C-MInDS. He got his PhD from UCLA and was a postdoc at UCSD.",
+        college: "IIT Bombay"
+    },
+    {
+        name: "Vivek S. Borkar",
+        imageUrl: borkar,
+        link: "https://www.ee.iitb.ac.in/web/people/vivek-shripad-borkar/",
+        bio: "Vivek S. Borkar (Fellow, IEEE) received the B.Tech. degree in electrical engineering from the Indian Institute of Technology Bombay, Bombay, India, in 1976, the M.S. degree in systems and control engineering from Case Western Reserve University, Cleveland, OH, USA, in 1977, and the Ph.D. degree in electrical engineering and computer science from the University of California at Berkeley, Berkeley, CA, USA, in 1980. He has held regular positions with the TIFR Centre for Applicable Mathematics, Indian Institute of Science, Bengaluru, India, Tata Institute of Fundamental Research, Mumbai, India, and Indian Institute of Technology Bombay. He is currently an Emeritus Fellow in the latter. He is a Fellow of the American Mathematical Society, The World Academy of Sciences, and various science and engineering academies in India. His research interests include control of Markov processes, stochastic approximation algorithms, and reinforcement learning. He was the recipient of many national honors, including the S.S. Bhatnagar Award, Prasanta Chandra Mahalanobis Medal of the Indian National Science Academy, and Homi Bhabha and S. S. Bhatnagar Fellowships.",
         college: "IIT Bombay"
     },
 

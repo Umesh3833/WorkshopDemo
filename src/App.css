@@ -58,6 +58,10 @@ html {
 }
 /* Speakers Section */
 .speakers-section {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   padding: 20px;
 }
 
@@ -75,7 +79,6 @@ html {
   width: 100%;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
-  
 }
 .speaker-card:hover{
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
