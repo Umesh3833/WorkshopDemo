@@ -6,11 +6,12 @@ import Speakers from './Speakers';
 import Schedule from './Schedule';
 import Venue from './Venue'
 import {speakers,events} from './Constants'
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
  
   return (
     <div>
+      <Analytics />
       <Header />
       <Venue />
       <Speakers speakers={speakers} />
