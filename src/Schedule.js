@@ -41,7 +41,7 @@ function Schedule({ events }) {
                 <td>{event.time}</td>
                 <td>{event.speaker}</td>
                 <td>
-                  {event.title}
+                {event.title}
                   <p>
                     {event.abstract && <span className={openAbstractIndex === index ? "dropdown-indicator open" : "dropdown-indicator"}>&#9660;</span>}
                   </p>
