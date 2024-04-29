@@ -89,7 +89,7 @@ export const speakers = [
 export const events = [
     {
         time: "9:30 - 9:50",
-        speaker: "Tea/Coffee"
+        speaker: "Tea/Coffee with Registration"
     },
     {
         time: "9:50 - 10:00",
