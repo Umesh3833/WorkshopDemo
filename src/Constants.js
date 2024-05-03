@@ -44,7 +44,7 @@ export const speakers = [
         name: "Jayakrishnan U. Nair",
         imageUrl: jk,
         link: "https://www.ee.iitb.ac.in/~jayakrishnan.nair/",
-        bio: "",
+        bio: "Jayakrishnan Nair is an Associate Professor of Electrical Engineering at IIT Bombay. His research draws on tools from queueing theory, applied probability, game theory, and control theory to address performance evaluation and design issues in networks, service systems, and smart power grids.",
         college: "IIT Bombay"
     },
     {
@@ -89,7 +89,7 @@ export const speakers = [
 export const events = [
     {
         time: "9:30 - 9:50",
-        speaker: "Tea/Coffee with Registration"
+        speaker: "Registration"
     },
     {
         time: "9:50 - 10:00",
@@ -136,6 +136,8 @@ export const events = [
     {
         time: "14:00 - 14:30",
         speaker: "Jayakrishnan U. Nair",
+        title:"Unsupervised Crowdsourcing with Accuracy and Cost Guarantees",
+        abstract:"We consider the problem of cost-optimal utilization of a crowdsourcing platform for binary, unsupervised classification of a collection of items, given a prescribed error threshold. Workers on the crowdsourcing platform are assumed to be divided into multiple classes, based on their skill, experience, and/or past performance. From the standpoint of the requester, we propose algorithms for acquiring label predictions from workers, and for inferring the true labels of items. These algorithms are provably accurate and near-optimal on the cost of labelling, and adapt to the (a priori unknown) confusion matrices corresponding to the task at hand."
       
     },
     {

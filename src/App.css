@@ -41,12 +41,6 @@ html {
   border-radius: 8px;
 }
 
-.venue-title {
-  margin-top: 10px;
-  font-size: 2rem;
-  color: #226E93;
-  margin-bottom: 20px;
-}
 
 .event-date,
 .venue-info {
@@ -55,6 +49,18 @@ html {
   color: #030303;
   margin-bottom: 5px;
   font-weight: 500; 
+}
+.label {
+  font-size: 1.8rem;
+  color: #005792; /* Example color: dark blue */
+  /* font-family: 'Arial, sans-serif'; Specify the font */
+  font-weight:bold; /* Make the label bold */
+}
+
+/* You can continue to use .event-date and .venue-info for specific styling of the whole line */
+.event-date, .venue-info {
+  font-size: 1.5rem; /* Example size */
+  color: #333; /* Standard text color */
 }
 /* Speakers Section */
 .speakers-section {
