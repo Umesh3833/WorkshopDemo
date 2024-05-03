@@ -68,7 +68,13 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+
   padding: 20px;
+}
+
+.speakers-section div.row{
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .speaker-card {
